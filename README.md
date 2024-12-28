@@ -32,4 +32,4 @@ Antes de rodar o projeto, verifique se você tem as seguintes dependências inst
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/SEU_USUARIO/api_estoque.git
+git clone https://github.com/Franciscovj/API_NODE_ESTOQUE.git
