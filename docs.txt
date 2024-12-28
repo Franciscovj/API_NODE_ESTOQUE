@@ -1,0 +1,42 @@
+
+mkdir api_estoque
+cd api_estoque
+Inicie um novo projeto Node.js:
+npm init -y
+Instale as dependências necessárias:
+
+Express: Framework para criar a API.
+Mongoose: Para interação com o MongoDB.
+Cors: Para permitir requisições de diferentes origens.
+Dotenv: Para gerenciar variáveis de ambiente.
+
+npm install express mongoose cors dotenv
+
+Estrutura do Projeto: Vamos criar uma estrutura de pastas simples:
+
+npm install --save-dev nodemon
+
+.
+├── .env
+├── app.js
+├── models
+│   ├── Product.js
+│   ├── Category.js
+│   └── Supplier.js
+└── routes
+    ├── productRoutes.js
+    ├── categoryRoutes.js
+    └── supplierRoutes.js
+    
+
+plaintext
+Copiar código
+DB_URI=mongodb://localhost:27017/estoque_db
+PORT=5000
+Passo 3: Criando os Modelos do Mongoose
+Crie os arquivos de modelo para Product, Category e Supplier.
+
+
+#rodar o projeto
+npx nodemon app.js
+
